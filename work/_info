@@ -1,0 +1,165 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vdecoder3_8
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1729263986
+!i10b 1
+!s100 Ik2G;z18UWXQ`V38`cD4J3
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IJE:H9IiG5zO7oliX7FVbM2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Basic/learningmyself/Ram
+w1728358365
+8C:/Basic/learningmyself/Ram/decoder3_8.sv
+FC:/Basic/learningmyself/Ram/decoder3_8.sv
+!i122 162
+L0 1 25
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1729263986.000000
+!s107 C:/Basic/learningmyself/Ram/decoder3_8.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Basic/learningmyself/Ram/decoder3_8.sv|
+!i113 1
+Z7 o-work work -sv
+Z8 tCvgOpt 0
+vDlatch
+R0
+R1
+!i10b 1
+!s100 Rbmn[]_cm3=W>0ojmiEU:0
+R2
+I;:TUCkOn=MFzRQbIGQbWD3
+R3
+S1
+R4
+w1729097786
+8C:/Basic/learningmyself/Ram/Dlatch.sv
+FC:/Basic/learningmyself/Ram/Dlatch.sv
+!i122 163
+L0 1 10
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Basic/learningmyself/Ram/Dlatch.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Basic/learningmyself/Ram/Dlatch.sv|
+!i113 1
+R7
+R8
+n@dlatch
+vRam
+R0
+R1
+!i10b 1
+!s100 KXhlm3:fNU6ZiAoBzB9VC2
+R2
+I95G<c=X]DohKW8W0h>m8K3
+R3
+S1
+R4
+w1729263929
+8C:/Basic/learningmyself/Ram/Ram.sv
+FC:/Basic/learningmyself/Ram/Ram.sv
+!i122 164
+L0 1 32
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Basic/learningmyself/Ram/Ram.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Basic/learningmyself/Ram/Ram.sv|
+!i113 1
+R7
+R8
+n@ram
+vtb_Ram
+R0
+R1
+!i10b 1
+!s100 ]=bizk7]@5V6HcSC:end83
+R2
+IJ4gmf8U744AgdP5Hk2b@Q3
+R3
+S1
+R4
+w1729263976
+8C:/Basic/learningmyself/Ram/tb_Ram.sv
+FC:/Basic/learningmyself/Ram/tb_Ram.sv
+!i122 165
+L0 2 71
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Basic/learningmyself/Ram/tb_Ram.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Basic/learningmyself/Ram/tb_Ram.sv|
+!i113 1
+R7
+R8
+ntb_@ram
+vtri_state
+R0
+Z9 !s110 1729263987
+!i10b 1
+!s100 OzZK_Z]^h9Xlm_Mm515A21
+R2
+I=TDHGBN@HQ98D>aTzn4=b1
+R3
+S1
+R4
+w1729182819
+8C:/Basic/learningmyself/Ram/tri_state.sv
+FC:/Basic/learningmyself/Ram/tri_state.sv
+!i122 166
+L0 1 12
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Basic/learningmyself/Ram/tri_state.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Basic/learningmyself/Ram/tri_state.sv|
+!i113 1
+R7
+R8
+vWord
+R0
+R9
+!i10b 1
+!s100 gi;n10naGeLHL70USgjgZ3
+R2
+IHR0MVfSnRKfS56goJ>PU43
+R3
+S1
+R4
+w1729262130
+8C:/Basic/learningmyself/Ram/Word.sv
+FC:/Basic/learningmyself/Ram/Word.sv
+!i122 167
+L0 1 36
+R5
+r1
+!s85 0
+31
+!s108 1729263987.000000
+!s107 C:/Basic/learningmyself/Ram/Word.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Basic/learningmyself/Ram/Word.sv|
+!i113 1
+R7
+R8
+n@word

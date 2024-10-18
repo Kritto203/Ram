@@ -1,0 +1,90 @@
+# Compile of decoder3_8.sv was successful.
+# Compile of Dlatch.sv was successful.
+# Compile of Ram.sv was successful.
+# Compile of tb_Ram.sv was successful.
+# Compile of tri_state.sv was successful.
+# Compile of Word.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_Ram
+# vsim -gui work.tb_Ram 
+# Start time: 21:39:29 on Oct 18,2024
+# Loading sv_std.std
+# Loading work.tb_Ram
+# Loading work.Ram
+# Loading work.decoder3_8
+# Loading work.Word
+# Loading work.Dlatch
+# Loading work.tri_state
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'Q'. The port definition is at: C:/Basic/learningmyself/Ram/Word.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_Ram/DUT/w1 File: C:/Basic/learningmyself/Ram/Ram.sv Line: 12
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'Q'. The port definition is at: C:/Basic/learningmyself/Ram/Word.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_Ram/DUT/w2 File: C:/Basic/learningmyself/Ram/Ram.sv Line: 13
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'Q'. The port definition is at: C:/Basic/learningmyself/Ram/Word.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_Ram/DUT/w3 File: C:/Basic/learningmyself/Ram/Ram.sv Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'Q'. The port definition is at: C:/Basic/learningmyself/Ram/Word.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_Ram/DUT/w4 File: C:/Basic/learningmyself/Ram/Ram.sv Line: 15
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'Q'. The port definition is at: C:/Basic/learningmyself/Ram/Word.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_Ram/DUT/w5 File: C:/Basic/learningmyself/Ram/Ram.sv Line: 16
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'Q'. The port definition is at: C:/Basic/learningmyself/Ram/Word.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_Ram/DUT/w6 File: C:/Basic/learningmyself/Ram/Ram.sv Line: 17
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'Q'. The port definition is at: C:/Basic/learningmyself/Ram/Word.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_Ram/DUT/w7 File: C:/Basic/learningmyself/Ram/Ram.sv Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (16) for port 'Q'. The port definition is at: C:/Basic/learningmyself/Ram/Word.sv(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_Ram/DUT/w8 File: C:/Basic/learningmyself/Ram/Ram.sv Line: 19
+add wave -position insertpoint sim:/tb_Ram/*
+run -all
+# ** Note: $finish    : C:/Basic/learningmyself/Ram/tb_Ram.sv(68)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_Ram
+# 1
+# Break in Module tb_Ram at C:/Basic/learningmyself/Ram/tb_Ram.sv line 68
+quit -sim
+# Compile of decoder3_8.sv was successful.
+# Compile of Dlatch.sv was successful.
+# Compile of Ram.sv was successful.
+# Compile of tb_Ram.sv was successful.
+# Compile of tri_state.sv was successful.
+# Compile of Word.sv was successful.
+# 6 compiles, 0 failed with no errors.
+# End time: 21:41:55 on Oct 18,2024, Elapsed time: 0:02:26
+# Errors: 0, Warnings: 11
+vsim -gui work.tb_Ram
+# vsim -gui work.tb_Ram 
+# Start time: 21:42:11 on Oct 18,2024
+# Loading sv_std.std
+# Loading work.tb_Ram
+# Loading work.Ram
+# Loading work.decoder3_8
+# Loading work.Word
+# Loading work.Dlatch
+# Loading work.tri_state
+add wave -position insertpoint sim:/tb_Ram/*
+run -all
+# ** Note: $finish    : C:/Basic/learningmyself/Ram/tb_Ram.sv(68)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_Ram
+# 1
+# Break in Module tb_Ram at C:/Basic/learningmyself/Ram/tb_Ram.sv line 68
+# Compile of decoder3_8.sv was successful.
+# Compile of Dlatch.sv was successful.
+# Compile of Ram.sv was successful.
+# Compile of tb_Ram.sv was successful.
+# Compile of tri_state.sv was successful.
+# Compile of Word.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.tb_Ram
+# End time: 22:06:38 on Oct 18,2024, Elapsed time: 0:24:27
+# Errors: 0, Warnings: 2
+# vsim -gui work.tb_Ram 
+# Start time: 22:06:38 on Oct 18,2024
+# Loading sv_std.std
+# Loading work.tb_Ram
+# Loading work.Ram
+# Loading work.decoder3_8
+# Loading work.Word
+# Loading work.Dlatch
+# Loading work.tri_state
+add wave -position insertpoint sim:/tb_Ram/*
+run -all
+# ** Note: $finish    : C:/Basic/learningmyself/Ram/tb_Ram.sv(69)
+#    Time: 100 ns  Iteration: 0  Instance: /tb_Ram
+# 1
+# Break in Module tb_Ram at C:/Basic/learningmyself/Ram/tb_Ram.sv line 69

@@ -1,0 +1,61 @@
+`timescale 1ns/1ps
+module tb_Ram;
+
+  // Tạo các biến để kết nối với các cổng của module Word
+  reg [15:0] D;   // Đầu vào dữ liệu
+  reg w;
+  reg [2:0] addr;
+  reg en;     // Tín hiệu điều khiển
+  wire [15:0] out;  // Đầu ra của Word
+
+  // Instantiate the Word module
+  Ram uut (
+    .D(D),
+    .w(w),
+    .addr(addr),
+    .en(en),
+    .out(out)
+  );
+
+  // Tạo các trường hợp kiểm tra
+  initial begin
+    // Khởi tạo
+    D = 16'b0;
+    addr=3'b000;
+    w=0;
+    en=0;
+
+    #10
+    D = 16'b1;
+    addr=3'b000;
+    w=1;
+    en=1;
+
+    #10
+    D = 16'b101;
+    addr=3'b111;
+    w=1;
+    en=1;
+
+    #10
+    w=0;
+    en=1;
+    addr=3'b000;
+    
+
+    #10
+    w=0;
+    en=1;
+    addr=3'b111;
+   
+    
+    
+
+
+
+
+    #20
+    $finish;
+  end
+
+endmodule
